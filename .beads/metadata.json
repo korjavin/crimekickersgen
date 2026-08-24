@@ -1,0 +1,7 @@
+{
+  "database": "dolt",
+  "backend": "dolt",
+  "dolt_mode": "embedded",
+  "dolt_database": "crimekickersgen",
+  "project_id": "9bd3b7e2-aa57-4d82-b948-2527fe2fb467"
+}
