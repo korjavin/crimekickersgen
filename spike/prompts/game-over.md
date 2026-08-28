@@ -124,6 +124,48 @@ NEGATIVE: photorealism, 3D render, manga, anime, chibi, extra fingers, malformed
 
 ---
 
+## CLIP 3 — Keyframe 3 to the GAME OVER slide (the wash-out)
+
+Before generating this, read the note under it — an editor cross-dissolve may be the better
+tool, and it costs nothing.
+
+The end frame is your already-generated GAME OVER slide. Because that slide carries
+lettering, this is the ONE clip whose end frame contains text, so its text guard is worded
+differently from the other two: the lettering must be left exactly as the end frame has it,
+never redrawn, animated or duplicated.
+
+Pick the variant matching your slide's tone.
+
+### Variant A — dark slide
+
+Animated motion comic, matching the start frame exactly. Clean confident hand-inked black linework, flat cel-style coloring with subtle cell-shading gradients, limited halftone texture, crisp print-quality finish, no photorealism, no 3D render look, muted desaturated palette. ONE ACTION ONLY: the whole frame darkens smoothly and evenly from all four edges inward, the cold floodlit lot sinking steadily into flat darkness while the four narrow horizontal amber indicator strips stay lit and are the very last thing visible, dimming out at the end; the image settles into a flat, still, dark final card. Nothing in the frame moves, walks, turns or changes shape at any point — this is a lighting change and nothing else. The camera is completely locked: no push-in, no pan, no tilt, no zoom, no cut, no change of location. Any lettering present in the final frame stays exactly as it is, unchanged and perfectly still. Consistent line art.
+
+NEGATIVE: photorealism, 3D render, manga, anime, chibi, extra fingers, malformed hands, extra limbs, distorted faces, new text, extra lettering, garbled lettering, warped letters, duplicated words, animated text, watermark, camera move, push-in, pan, tilt, zoom, camera cut, scene change, new location, reversed motion, rewinding motion, walking, stepping, turning, morphing shapes, melting shapes, strobing, flashing lights, red emergency lighting.
+
+### Variant B — light or colored slide
+
+Animated motion comic, matching the start frame exactly. Clean confident hand-inked black linework, flat cel-style coloring with subtle cell-shading gradients, limited halftone texture, crisp print-quality finish, no photorealism, no 3D render look, muted desaturated palette. ONE ACTION ONLY: the four narrow horizontal amber indicator strips bloom outward into a smooth even wash of light that spreads across the whole frame and flattens it, the cold floodlit lot fading out evenly underneath as the wash rises, until the image settles into a flat, still, even final card. Nothing in the frame moves, walks, turns or changes shape at any point — this is a lighting change and nothing else. The camera is completely locked: no push-in, no pan, no tilt, no zoom, no cut, no change of location. Any lettering present in the final frame stays exactly as it is, unchanged and perfectly still. Consistent line art.
+
+NEGATIVE: photorealism, 3D render, manga, anime, chibi, extra fingers, malformed hands, extra limbs, distorted faces, new text, extra lettering, garbled lettering, warped letters, duplicated words, animated text, watermark, camera move, push-in, pan, tilt, zoom, camera cut, scene change, new location, reversed motion, rewinding motion, walking, stepping, turning, morphing shapes, melting shapes, strobing, flashing lights, harsh white strobe.
+
+### Consider not generating this one
+
+A straight **cross-dissolve in the editor** from keyframe 3 to the slide, about 0.8–1.2s,
+will almost certainly look better than a generated interpolation, and it costs nothing.
+Veo has to invent every frame between a rendered scene and a flat card, and its two usual
+failure modes here are both ugly: morphing the machines into the lettering, and garbling
+the letters as they resolve.
+
+Generate clip 3 if you want the amber strips to be the last thing alive on screen — that
+beat is genuinely nicer than a dissolve and it is why the prompt is written the way it is.
+Otherwise dissolve it and keep the budget.
+
+If you do generate it and the letters wobble in the last frames, do not re-roll: trim the
+tail of the clip and hold the still slide in the editor. The wobble is always at the end,
+where the model is resolving toward the target frame.
+
+---
+
 ## If CLIP 1 is still refused
 
 Work down this list, re-submitting after each step:
